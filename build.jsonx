@@ -1,0 +1,22 @@
+{
+    Repos: {
+        "base": "https://github.com/shanhuio/elsa-base",
+        "go/shanhu.io/homedrv": "https://github.com/shanhuio/homedrv",
+        "npm/jarvis": "https://github.com/shanhuio/jarvis-ts",
+    },
+    Steps: [{
+        Name: "go/homedrv",
+        Dir: "go/shanhu.io/homedrv",
+        GoBinary: [
+            "./daemon/jarvisd",
+            "./daemon/ncfrontd",
+            "./daemon/doorwayd",
+            "./cmd/homeboot",
+        ],
+    }, {
+        Name: "npm/jarvis",
+        NodeJS: {
+            Output: ["jarvis.zip"],
+        },
+    }],
+}
