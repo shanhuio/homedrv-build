@@ -1,8 +1,9 @@
 {
     Repos: {
-        "base": "https://github.com/shanhuio/elsa-base",
-        "go/shanhu.io/homedrv": "https://github.com/shanhuio/homedrv",
-        "npm/jarvis": "https://github.com/shanhuio/jarvis-ts",
+        "base": "https://github.com/shanhuio/elsa-base.git",
+        "go/shanhu.io/homedrv": "https://github.com/shanhuio/homedrv.git",
+        "npm/jarvis": "https://github.com/shanhuio/jarvis-ts.git",
+        "homedrv": "https://github.com/shanhuio/homedrv-dockers.git",
     },
     Steps: [{
         Name: "go/homedrv",
@@ -18,5 +19,14 @@
         NodeJS: {
             Output: ["jarvis.zip"],
         },
+    }, {
+        Name: "dockers",
+        Dir: "homedrv",
+        Dockers: [
+            "homeboot",
+            "jarvis",
+            "doorway",
+            "ncfront",
+        ],
     }],
 }
