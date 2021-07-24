@@ -13,6 +13,7 @@
             "./daemon/ncfrontd",
             "./daemon/doorwayd",
             "./cmd/homeboot",
+            "./cmd/homerelease",
         ],
     }, {
         Name: "npm/jarvis",
