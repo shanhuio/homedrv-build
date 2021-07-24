@@ -28,5 +28,15 @@
             "doorway",
             "ncfront",
         ],
+    }, {
+        Name: "docker-pull",
+        Dir: "homedrv",
+        DockerPull: {
+            Images: "pull.jsonx",
+            Sums: {
+                "amd64": "pull-sums-amd64.jsonx",
+                "arm64": "pull-sums-arm64.jsonx",
+            },
+        },
     }],
 }
