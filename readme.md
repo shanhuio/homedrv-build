@@ -6,10 +6,14 @@
 
 ```go install shanhu.io/elsa/cmd/elsa@latest```
 
-**Step 2**: Build base dockers:
+**Step 2**: Sync down other repositories:
+
+```elsa sync -pull```
+
+**Step 3**: Build base dockers:
 
 ```elsa build base```
 
-**Step 3**: Build HomeDrive dockers:
+**Step 4**: Build HomeDrive dockers:
 
 ```elsa build```
