@@ -8,7 +8,7 @@
 
 **Step 2**: Sync down other repositories:
 
-```elsa sync -pull```
+```elsa sync```
 
 **Step 3**: Build base dockers:
 
