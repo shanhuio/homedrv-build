@@ -3,7 +3,7 @@
         "base": "https://github.com/shanhuio/elsa-base.git",
         "go/shanhu.io/homedrv": "https://github.com/shanhuio/homedrv.git",
         "npm/jarvis": "https://github.com/shanhuio/jarvis-ts.git",
-        "homedrv": "https://github.com/shanhuio/homedrv-dockers.git",
+        "docker/homedrv": "https://github.com/shanhuio/homedrv-dockers.git",
     },
     Steps: [{
         Name: "go/homedrv",
