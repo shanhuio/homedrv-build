@@ -22,7 +22,7 @@
         },
     }, {
         Name: "dockers",
-        Dir: "homedrv",
+        Dir: "docker/homedrv",
         Dockers: [
             "homeboot",
             "jarvis",
@@ -31,7 +31,7 @@
         ],
     }, {
         Name: "docker-pull",
-        Dir: "homedrv",
+        Dir: "docker/homedrv",
         DockerPull: {
             Images: "pull.jsonx",
             Sums: {
