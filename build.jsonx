@@ -12,6 +12,7 @@
             "./daemon/jarvisd",
             "./daemon/ncfrontd",
             "./daemon/doorwayd",
+            "./daemon/toolboxd",
             "./cmd/homeboot",
             "./cmd/homerelease",
         ],
@@ -28,6 +29,7 @@
             "jarvis",
             "doorway",
             "ncfront",
+            "toolbox",
         ],
     }, {
         Name: "docker-pull",
