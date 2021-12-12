@@ -3,6 +3,6 @@
         "base": "830530e26416de30413e2ad073b1e886ca1f0253",
         "docker/homedrv": "a33158f3f219cf1cb5fd5de6088ad5369dd0e761",
         "go/shanhu.io/homedrv": "301318ede1db0cf7771941a45fa3413a9240f6a0",
-        "npm/jarvis": "5e346ae4b4b2dbea2f3721d4224fdc4fe86778f3",
+        "npm/jarvis": "f0fc352f8956e706acf6580b928d4f2000f6ce36",
     },
 }
