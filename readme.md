@@ -2,18 +2,18 @@
 
 **Step 0**: Install Linux with Docker and latest Go language.
 
-**Step 1**: Install `elsa`, our building tool:
+**Step 1**: Install `caco3`, our building tool:
 
-```go install shanhu.io/elsa/cmd/elsa@latest```
+```go install shanhu.io/caco3/cmd/caco3@latest```
 
 **Step 2**: Sync down other repositories:
 
-```elsa sync```
+```caco3 sync```
 
 **Step 3**: Build base dockers:
 
-```elsa build base```
+```caco3 build base```
 
 **Step 4**: Build HomeDrive dockers:
 
-```elsa build```
+```caco3 build```
