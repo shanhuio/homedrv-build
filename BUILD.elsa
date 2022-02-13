@@ -1,0 +1,52 @@
+repo_map {
+    Map: {
+        "base": "https://github.com/shanhuio/elsa-base.git",
+        "go/shanhu.io/homedrv": "https://github.com/shanhuio/homedrv.git",
+        "npm/jarvis": "https://github.com/shanhuio/jarvis-ts.git",
+        "docker/homedrv": "https://github.com/shanhuio/homedrv-dockers.git",
+    },
+}
+
+build_step {
+    Name: "go/homedrv",
+    Dir: "go/shanhu.io/homedrv",
+    GoBinary: [
+        "./daemon/jarvisd",
+        "./daemon/ncfrontd",
+        "./daemon/doorwayd",
+        "./daemon/toolboxd",
+        "./cmd/homeboot",
+        "./cmd/homerelease",
+    ],
+}
+
+build_step {
+    Name: "npm/jarvis",
+    NodeJS: {
+        Output: ["jarvis.zip"],
+    },
+}
+
+build_step {
+    Name: "dockers",
+    Dir: "docker/homedrv",
+    Dockers: [
+        "homeboot",
+        "jarvis",
+        "doorway",
+        "ncfront",
+        "toolbox",
+    ],
+}
+
+build_step {
+    Name: "docker-pull",
+    Dir: "docker/homedrv",
+    DockerPull: {
+        Images: "pull.jsonx",
+        Sums: {
+            "amd64": "pull-sums-amd64.jsonx",
+            "arm64": "pull-sums-arm64.jsonx",
+        },
+    },
+}
