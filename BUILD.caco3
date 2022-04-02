@@ -1,6 +1,6 @@
 repo_map {
     Map: {
-        "base": "https://github.com/shanhuio/elsa-base.git",
+        "base": "https://github.com/shanhuio/caco3-base.git",
         "go/shanhu.io/homedrv": "https://github.com/shanhuio/homedrv.git",
         "npm/jarvis": "https://github.com/shanhuio/jarvis-ts.git",
         "docker/homedrv": "https://github.com/shanhuio/homedrv-dockers.git",
