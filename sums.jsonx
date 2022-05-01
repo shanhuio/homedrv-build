@@ -1,10 +1,10 @@
 {
     RepoCommits: {
-        "shanhu.io/homedrv/dockers": "3da2c009ca06097249b4946e47f9f298cde73fa8",
+        "shanhu.io/homedrv/dockers": "6768174f9cf7d68e70b005b9986e559b50abd535",
         "shanhu.io/homedrv/drv": "d650338e4cf4e6a2c19bd879e00f7ae030d7dfd6",
         "shanhu.io/homedrv/drv-ts": "160151281b85eed2e90490a5fde5e4f662b69d14",
         "shanhu.io/lib/aries": "856c23b6824eda53f08d3dd772baa3de5c39b948",
-        "shanhu.io/lib/dockers": "c51915b78d982d806eb06ddd501a0463b91d04ca",
+        "shanhu.io/lib/dockers": "1aab3a04878cfe62c4924fa9a6f1e32d74a9ea75",
         "shanhu.io/lib/misc": "117e3c66ed149515894a515204947674f80f7c19",
         "shanhu.io/lib/pisces": "8e5689e21da5dffa8d1ce37ca515a41346f97550",
         "shanhu.io/lib/text": "0195ecfdda87d4c94f4ba1776311e1a81b64106d",
