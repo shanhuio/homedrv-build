@@ -10,10 +10,6 @@
 
 ```caco3 sync```
 
-**Step 3**: Build base dockers:
+**Step 3**: Build the containers:
 
-```caco3 build base```
-
-**Step 4**: Build HomeDrive dockers:
-
-```caco3 build```
+```caco3 build shanhu.io/homedrv/dockers/dockers```
