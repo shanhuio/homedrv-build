@@ -1,5 +1,5 @@
 repo_map {
-    Map: {
+    Src: {
         "shanhu.io/lib/dockers": "https://github.com/shanhuio/lib-dockers.git",
         "shanhu.io/lib/aries": "https://github.com/shanhuio/lib-aries.git",
         "shanhu.io/lib/misc": "https://github.com/shanhuio/lib-misc.git",
