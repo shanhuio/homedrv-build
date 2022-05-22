@@ -10,4 +10,18 @@ repo_map {
         "shanhu.io/homedrv/drv-ts": "https://github.com/shanhuio/homedrv-drv-ts.git",
         "shanhu.io/homedrv/dockers": "https://github.com/shanhuio/homedrv-dockers.git",
     },
+    ExtraRemotes: [{
+        Name: "github",
+        URL: {
+            "shanhu.io/lib/dockers": "git@github.com:shanhuio/lib-dockers.git",
+            "shanhu.io/lib/aries": "git@github.com:shanhuio/lib-aries.git",
+            "shanhu.io/lib/misc": "git@github.com:shanhuio/lib-misc.git",
+            "shanhu.io/lib/pisces": "git@github.com:shanhuio/lib-pisces.git",
+            "shanhu.io/lib/text": "git@github.com:shanhuio/lib-text.git",
+            "shanhu.io/lib/virgo": "git@github.com:shanhuio/lib-virgo.git",
+            "shanhu.io/homedrv/drv": "git@github.com:shanhuio/homedrv-drv.git",
+            "shanhu.io/homedrv/drv-ts": "git@github.com:shanhuio/homedrv-drv-ts.git",
+            "shanhu.io/homedrv/dockers": "git@github.com:shanhuio/homedrv-dockers.git",
+        },
+    }],
 }
