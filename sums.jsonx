@@ -1,16 +1,12 @@
 {
     RepoCommits: {
         "shanhu.io/homedrv/dockers": "9536c59416ec64ff7ebbd4ed3d83399fc7a584e2",
-        "shanhu.io/homedrv/drv": "9381b761deb1b39fbde934413afd1c6ae37727b4",
+        "shanhu.io/homedrv/drv": "3c0d21c51b1de7e5bd40be08dd191b623f2d827f",
         "shanhu.io/homedrv/drv-ts": "15b2dc81aa4370f4a42d12c61c15eba34f8abcaa",
-        "shanhu.io/lib/aries": "ab4046b26cfa58d378fff19aa7c64968243c460d",
-        "shanhu.io/lib/dockers": "67ded8e1d43ee7e46b236419cf29527bb334e94e",
+        "shanhu.io/lib/dockers": "2e655b4a7bdd64d71cdf4c7158f77eadd7588c9d",
         "shanhu.io/lib/htmlgen-ts": "46855974b1f3748541100426716da579addcafd0",
-        "shanhu.io/lib/misc": "b0fd341d6f43df2b71e46aa982f5c64cb36928f0",
         "shanhu.io/lib/misc-ts": "651cf698d5a99360b5a9dfd06e31477a8fa331cf",
-        "shanhu.io/lib/pisces": "66dfc019f0970c23da78621e358bddb84e86c2cb",
         "shanhu.io/lib/style-ts": "8ef48c67b0aedc2780da25715981af7289498255",
-        "shanhu.io/lib/text": "0195ecfdda87d4c94f4ba1776311e1a81b64106d",
-        "shanhu.io/lib/virgo": "75e69f830bace6f85796f80a5b8e525c770f4ec4",
+        "shanhu.io/pub": "8034f60d3613b99abfdbf0097aafc9af58157c3e",
     },
 }

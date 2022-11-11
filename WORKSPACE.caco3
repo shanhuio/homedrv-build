@@ -1,11 +1,7 @@
 repo_map {
     Src: {
         "shanhu.io/lib/dockers": "https://github.com/shanhuio/lib-dockers.git",
-        "shanhu.io/lib/aries": "https://github.com/shanhuio/lib-aries.git",
-        "shanhu.io/lib/misc": "https://github.com/shanhuio/lib-misc.git",
-        "shanhu.io/lib/pisces": "https://github.com/shanhuio/lib-pisces.git",
-        "shanhu.io/lib/text": "https://github.com/shanhuio/lib-text.git",
-        "shanhu.io/lib/virgo": "https://github.com/shanhuio/lib-virgo.git",
+        "shanhu.io/pub": "https://github.com/shanhuio/pub.git",
         "shanhu.io/lib/misc-ts": "https://github.com/shanhuio/lib-misc-ts.git",
         "shanhu.io/lib/htmlgen-ts": "https://github.com/shanhuio/lib-htmlgen-ts.git",
         "shanhu.io/lib/style-ts": "https://github.com/shanhuio/lib-style-ts.git",
