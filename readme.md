@@ -1,10 +1,10 @@
 ## Building Steps
 
-**Step 0**: Install Linux with Docker and latest Go language.
+**Step 0**: Install Linux, Docker and latest Go language compiler.
 
 **Step 1**: Install `caco3`, our building tool:
 
-```go install shanhu.io/caco3/cmd/caco3@latest```
+```go install shanhu.io/pub/cmd/caco3@latest```
 
 **Step 2**: Sync down other repositories:
 
